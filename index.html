@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- starting header -->
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="style sheet" href="./style.css">
+    <link rel="icon"
+        href="data:image/jpeg;base64,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9e6j9m1ftP8Ayx9+77ggy05B5/g/unr3d/Z9b7f9q/HUzxVIqYpHMnDuMSNOCCqomYnlvthpanZaOYWql6Q7pDEGTU9PO4DHHu0+oV3r2eVfoeG08xPCKvWqrpeGdVUSNjp++GIYB8zzKhfLazVrdMwa890RzLls95rLNNJLQmNr5AA4vZxbLlb2rPhfs6uPZiIyfDpuuqbrd6Q0tbJC6IuDsMj4dx6pfJa8cSpwdNwYL99IfNo1Nc7NTGnoXQtjc7iPHHkk+67XJNY4hLZ0MOzfvye7Ver7X3sxf2g6J3VZ4OBnDjPP/YLlsk2909XTxavPpx7uy36wvFuooqOlfAIYW8LA6LJx7qUZbVjiFGXpetlvN7R5n8oyruVVWXE3CaQiqLg7jZtgjljwVdrTNuWvHr46YvSiP6U4zXt7bCIyaZxAx1jojxH54+SujPaIedPRdabd3lxUuqrtTVs1W2dsk8rQxzpW8WAPAbYUYzW55aL9M171inHiGq9aiuF7jijr3RObE7iZwR8O+PNRvebe6WtoYdaZtSPd1WPVtxs1N9mhEUsIJLWyD+HPgR3fBSpmtWOFW10vDsW7vaWy6a1u9xgdBxRQROBa8RNOXDzK7Oa0oYekYMVu6fKFtlfV2yobUUUzopAMHHIjwI7wqotNZ8N+fBjz1mt45hao+kW5Nj4X0VM52P4wXD5K+Nifs8n9ixc+LTwgL1f7henD7dL+G3dsTNmD07z8VVky2s362hh1/NI8/dFlVtrC6CAgygwgICDKDCAgIMoMIMoMICAgygwgIMoCcAnAwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg//2Q==">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+
+    </head>/
+    <!-- here started body  -->
+<body>
+    <header>
+        <div class="nav">
+            <div>
+                <h4>Get the app</h4>
+            </div>
+            <ul class="nav-bar">
+                <li>Investor relations</li>
+                <li>Add restaurant</li>
+                <li>Log in</li>
+                <li>Sign up </li>
+            </ul>
+        </div>
+        <div class="head">
+             <img class="logo" src="images/z1.avif"> 
+            <h3>Discover the best food & drinks in malappuram</h3>
+            <div class="search">
+
+                <i class="fa-solid fa-location-dot" style="color: #ff3b3b;"></i>
+                <p>malappuram</p>
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="search for restuarant,cusine or a dish">
+
+            </div>
+        </div>
+        <div class="header-image">
+         <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png">
+
+
+    </header>
+    <section class="sec-1">
+        <div class="box">
+            <div class="white">
+                <h3>order online</h3>
+                <p>stay home and order to your door step</p>
+            </div>
+            <img
+                src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*">
+        </div>
+    </section>
+    <div class="pp">
+        <p>popular localities in and around <b>malappuram</b></p>
+    </div>
+
+    <div class="malp">
+        <p class="p1">Malappuram Locality</p>
+        <p class="p2">55 Places</p>
+        <a class="icon"><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="section-2">
+        <div class="mobile1"><img class="mobile" src="images/mobile.webp" alt=""></div>
+        <div class="form">
+            <h5 class="h5"><b> Get the Zomato app</b></h5>
+            <p>We will send you a link, open it on your phone to download the app</p>
+            <input type="radio">
+            <label class="label">email</label>
+            <input type="radio">
+            <label>phone</label>
+            <form><input class="input" type="text" placeholder="Email">
+                <button class="button">Share app Link</button>
+            </form>
+
+            <p>download app from</p>
+            <div class="playstore"><img class="img1" src="images/googleplay.webp">
+                <img class="img1" src="images/app store.webp">
+            </div>
+
+
+        </div>
+    </div>
+    <div class="section-3">
+
+        <p class="p4 ">Explore options near me</p>
+        <p class="pp1 "><a>Popular cuisines near me</a><span class="material-symbols-outlined">
+                keyboard_arrow_down
+            </span></i></p>
+        <p class="pp2"><a>Popular restaurant types near me</a><span class="material-symbols-outlined">
+                keyboard_arrow_down
+            </span></p>
+        <p class="pp3"><a>Cities We Deliver To</a><span class="material-symbols-outlined">
+                keyboard_arrow_down
+            </span></p>
+            
+
+    </div>
+    <div class="footer">
+    <div class="footer-1">
+        <img src="images/zomato.webp">
+    </div>
+    <div class="footer-2">
+        <div class="footer-s">
+            <div class="flag"><img class="footer-image" src="images/illustration-india-flag_53876-27130.avif"></div>
+            <div class="font"><p>india</p></div>
+            <div class="arrow"><i class="fa-solid fa-chevron-down"></i></div>
+
+        </div>
+        <div class="footer-s">
+           <div class="glob"><i class="fa-solid fa-globe"></i></div>
+            <div class="font"><p>English</p></div>
+            <div class="arrow"><i class="fa-solid fa-chevron-down"></i></div>
+            
+        </div>
+       
+
+        </div>
+    </div>
+    </div>
+    
+    
+</body>
+<!-- footer side started -->
+<footer class="end">
+
+    <div class=" end-footer">
+       <div class="f1">
+        <ul class="u-1">
+            <li class="list-1">ABOUT ZOMATO</li>
+            <li>who we are</li>
+            <li>blog</li>
+            <li>work with us</li>
+            <li>investor relation</li>
+            <li>report froud</li>
+            <li>press kit</li>
+            <li>contact us</li>
+        </ul>
+       </div>
+       <div class="f1">
+        <ul class="u-1">
+            <li class="list-1">ZOMAVERSE</li>
+            <li>zomato</li>
+            <li>blinkit</li>
+            <li>feeding india</li>
+            <li>hyperpure</li>
+            <li>zomaland</li>
+            <li>weather</li>
+        </ul>
+       </div>
+       <div class="f1">
+        <ul class="u-1">
+            <li class="list-1">FOR RESTARUNTS</li>
+            <li>partner with us</li>
+            <li>app for you</li>
+
+        </ul>
+       </div>
+       <div class="f1">
+        <ul class="u-1">
+            <li class="list-1">LEARN MORE</li>
+            <li>privacy</li>
+            <li>security</li>
+            <li>terms</li>
+            <li>site map</li>
+
+        </ul>
+       </div>
+       <div class="f1">
+        <ul class="u-1">
+            <li class="list-1">SOCIAL LINKS</li>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+
+        </ul>
+        <div class="foot">
+        <img class="footer-img" src="images/googleplay.webp">
+        <img class="footer-img" src="images/app store.webp">
+       </div>
+    </div>
+    </div>
+    <div class="final-footer">
+        <p class="p-footer">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</p>
+    </div>
+
+</footer>
+
+</html>
